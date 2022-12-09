@@ -73,7 +73,7 @@ ul {
 .content {
     display: flex;
     justify-content: center;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .content-heading {
