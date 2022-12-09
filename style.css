@@ -172,3 +172,17 @@ ul {
     justify-content: center;
     padding: 5px 0;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.copyright {
+    color: #F9FAF8;
+}
