@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* header */
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -64,4 +66,42 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    border-style: solid;
+    border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.card-subtext {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
